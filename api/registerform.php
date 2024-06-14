@@ -15,7 +15,7 @@
             <div class="reg-title">
                 Registration Form
             </div>
-            <form action="../actions/create-user.php" method="post">
+            <form action="/create-user" method="post">
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">First Name:</span>

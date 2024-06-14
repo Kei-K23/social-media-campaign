@@ -1,6 +1,7 @@
 <?php
-include "../db/db.php";
-include "../db/user.php";
+session_start();
+include __DIR__ . '/../../db/db.php';
+include __DIR__ . '/../../db/user.php';
 
 $db = new Database();
 $user = new User($db);

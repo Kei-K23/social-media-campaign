@@ -3,6 +3,9 @@
     "api/index.php": {
       "runtime": "vercel-php@0.7.1"
     },
+    "api/admin.php": {
+      "runtime": "vercel-php@0.7.1"
+    },
     "api/information.php": {
       "runtime": "vercel-php@0.7.1"
     },
@@ -31,6 +34,9 @@
       "runtime": "vercel-php@0.7.1"
     },
     "api/actions/login-timer.php": {
+      "runtime": "vercel-php@0.7.1"
+    },
+    "api/actions/create-user.php": {
       "runtime": "vercel-php@0.7.1"
     }
   },
@@ -86,6 +92,10 @@
     {
       "src": "/login-timer",
       "dest": "/api/actions/login-timer.php"
+    },
+    {
+      "src": "/create-user",
+      "dest": "/api/actions/create-user.php"
     }
   ]
 }
